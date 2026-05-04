@@ -1,0 +1,5 @@
+* [🏠 Főoldal](home.md)
+* [🚀 Telepítés](install.md)
+* [📜 Parancsok](commands.md)
+* [🐛 Bug Report](bugs.md)
+* [📊 Státusz](status.md)

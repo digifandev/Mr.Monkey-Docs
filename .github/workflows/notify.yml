@@ -1,0 +1,12 @@
+name: Docs Update Notification
+on: [push]
+jobs:
+  discord-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Discord Webhook Action
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
+          content: "📖 **Új frissítés érkezett a dokumentációba!**\nEllenőrizd itt: https://github.com/digifandev/Mr.Monkey-Docs"
+          username: "GitHub | Docs"
