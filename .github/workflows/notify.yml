@@ -1,12 +1,29 @@
 name: Docs Update Notification
-on: [push]
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   discord-message:
     runs-on: ubuntu-latest
     steps:
-      - name: Discord Webhook Action
-        uses: tsickert/discord-webhook@v5.3.0
+      - name: Send Professional Embed
+        uses: sarisia/actions-status-discord@v1
         with:
-          webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
-          content: "📖 **Új frissítés érkezett a dokumentációba!**\nEllenőrizd itt: https://github.com/digifandev/Mr.Monkey-Docs"
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          color: 0xFFCC00
           username: "GitHub | Docs"
+          avatar_url: "https://em-content.zobj.net/source/microsoft-teams/337/monkey-face_1f435.png"
+          title: "📖 Dokumentáció Frissítve!"
+          description: |
+            Az online tudásbázis sikeresen frissült a legújabb módosításokkal.
+            
+            **Legutóbbi módosítás:**
+            `${{ github.event.head_commit.message }}`
+            
+            **Szerző:** `${{ github.actor }}`
+          url: "https://digifandev.github.io/Mr.Monkey-Docs/"
+          footer: "Mr. Monkey Docs | GitHub Actions"
+          timestamp: true

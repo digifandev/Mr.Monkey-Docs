@@ -3,3 +3,4 @@
 * [📜 Parancsok](commands.md)
 * [🐛 Bug Report](bugs.md)
 * [📊 Státusz](status.md)
+* [😺 Reposotory](repo.md)
