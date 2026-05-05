@@ -4,3 +4,4 @@
 * [🐛 Bug Report](bugs.md)
 * [📊 Státusz](status.md)
 * [😺 Reposotory](repo.md)
+* [🟣 TGF. Lapok](tgf.md)
