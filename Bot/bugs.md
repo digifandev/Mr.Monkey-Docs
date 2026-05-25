@@ -3,4 +3,4 @@
 
      - Jelnleg ennyi vonatkozik a bugs részre.
 
-     **Üdb: DigiFan - Bot Owner**
+     **Üdv: DigiFan - Bot Owner**

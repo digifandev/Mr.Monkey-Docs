@@ -5,3 +5,4 @@
 * [📊 Státusz](status.md)
 * [😺 Reposotory](repo.md)
 * [🟣 TGF. Lapok](tgf.md)
+* [🛑 Global szabályzat](globalrules.md)
