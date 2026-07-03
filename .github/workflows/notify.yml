@@ -19,31 +19,18 @@ jobs:
           avatar_url: "https://em-content.zobj.net/source/microsoft-teams/337/monkey-face_1f435.png"
           title: "📖 Dokumentáció Frissítve!"
           url: "https://digifandev.github.io/Mr.Monkey-Docs/"
-          description: "Az online tudásbázis sikeresen frissült a legújabb módosításokkal. Az új verzió már éles és böngészhető!"
-          
-          fields: |
-            [
-              {
-                "name": "👤 Szerző",
-                "value": "${{ github.actor }}",
-                "inline": true
-              },
-              {
-                "name": "🌿 Ág",
-                "value": "`main`",
-                "inline": true
-              },
-              {
-                "name": "📝 Commit üzenet",
-                "value": "```\n${{ github.event.head_commit.message }}\n```",
-                "inline": false
-              },
-              {
-                "name": "🔗 Változtatások megtekintése",
-                "value": "[Kattints ide a commit megnyitásához](${{ github.event.head_commit.url }})",
-                "inline": false
-              }
-            ]
+          description: |
+            Az online tudásbázis sikeresen frissült a legújabb módosításokkal.
+
+            **👤 Szerző:** ${{ github.actor }}
+            **🌿 Ág:** `main`
+
+            **📝 Legutóbbi módosítás:**
+            ```
+            ${{ github.event.head_commit.message }}
+            ```
+
+            [🔗 Kattints ide a commit megnyitásához](${{ github.event.head_commit.url }})
             
           footer: "Mr. Monkey Docs | GitHub Actions"
           timestamp: true
