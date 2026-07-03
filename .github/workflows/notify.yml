@@ -22,7 +22,7 @@ jobs:
           description: |
             Az online tudásbázis sikeresen frissült a legújabb módosításokkal.
 
-            **👤 Szerző:** ${{ github.actor }}
+            **👤 Szerző:** `${{ github.actor }}`
             **🌿 Ág:** `main`
 
             **📝 Legutóbbi módosítás:**
