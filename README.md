@@ -1,9 +1,9 @@
 # 🐒 Mr. Monkey - Dokumentáció
 
-Üdvözlünk a **Mr. Monkey | Status** bot hivatalos tudásbázisában! Ez az oldal azért jött létre, hogy segítsen a bot beállításában, a parancsok megismerésében és a hibák bejelentésében.
+Üdvözlünk a **Mr.Monkey** bot hivatalos tudásbázisában! Ez az oldal azért jött létre, hogy segítsen a bot beállításában, a parancsok megismerésében és a hibák bejelentésében.
 
 > [!TIP]
-> A bot jelenleg **Béta** fázisban van. Ha hibát találsz, használsz a `.bugreport` parancsot!
+> Hívd meg a botot a support szervererre történő belépéssel. 
 
 ---
 
@@ -13,8 +13,9 @@ Válassz az alábbi kategóriák közül a kezdéshez:
 * **[Telepítés](install.md)** - Hogyan add hozzá a botot a szerveredhez.
 * **[Parancsok](commands.md)** - A parancsok teljes listája és használata.
 * **[Hibajelentés](bugs.md)** - Mi a teendő, ha valami nem működik?
-* **[ASZF]- Hamarosan... A weben megtekinthető: https://mrmonkey.netlify.app/terms
-* **[Adatvédelmi tájékoztató]- Hamarosan... A weben megtekinthető: https://mrmonkey.netlify.app/privacy
+* **[ASZF] - Hamarosan... A weben megtekinthető: https://mrmonkey.netlify.app/terms
+* **[Adatvédelmi tájékoztató] - Hamarosan... A weben megtekinthető: https://mrmonkey.netlify.app/privacy
+(Ez a szekció jeleneleg nem üzemel a dokumentáció szétszedése miatt. )
 
 ---
 
@@ -31,7 +32,7 @@ Válassz az alábbi kategóriák közül a kezdéshez:
 ## 🤝 Támogatók
 A projekt fejlődését köszönjük:
 * **@zoli_X** - Kiemelt támogató és közreműködő.
-
+* **[Az összes zámogatónk, ezen a linken keresztül tekinthető meg.](doneters.md)** 
 ---
 
 ## 🔗 Linkek
